@@ -25,7 +25,7 @@ datadogObject = {
 			"metric": "test.python.lambda",
 			"points": [
 				[
-        				#time in epoch
+        				#epoch time
 					int(time.time()),
         				#metric value (getting a random number for this example)
 					random.randrange(51)
