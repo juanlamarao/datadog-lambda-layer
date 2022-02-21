@@ -21,14 +21,14 @@ import random
 datadogObject = {
 	"series": [
 		{
-      #metric name in datadog
+      			#metric name in datadog
 			"metric": "test.python.lambda",
 			"points": [
 				[
-        #time in epoch
-				int(time.time()),
-        #metric value (getting a random number for this example)
-				random.randrange(51)
+        				#time in epoch
+					int(time.time()),
+        				#metric value (getting a random number for this example)
+					random.randrange(51)
 				]
 			]
 		}
